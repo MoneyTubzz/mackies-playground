@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencil Pusher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pencil Pusher</h1>
+        <p>Generate and sell pencils to buy auto-presses!</p>
+    </header>
+    <main>
+        <!-- Stats -->
+        <section class="stats">
+            <div>Pencils: <span id="pencilCount">0</span></div>
+            <div>Wood: <span id="pulpCount">0</span></div>
+            <div>Money: $<span id="moneyCount">0.00</span></div>
+        </section>
+
+        <!-- Market -->
+        <section class="market">
+            <label>Price per pencil:</label>
+            <button id="priceDown">➖</button>
+            $<span id="priceDisplay">1.00</span>
+            <button id="priceUp">➕</button>
+            <div class="demand">Demand: <span id="demandCount">30%</span></div>
+        </section>
+
+
+        <!-- Resource Actions -->
+        <section class="actions">
+            <button id="chopBtn">Chop Wood 🪓</button>
+            <button id="pushBtn">Make Pencil ✏️</button>
+        </section>
+
+        <!-- Shop -->
+        <section class="shop">
+            <h2>Shop</h2>
+            <div class="item">
+                <div>🏭 Wood Mill</div>
+                <div>Cost: $<span id="millCost">50</span></div>
+                <div>Owned: <span id="millCount">0</span></div>
+                <button id="buyMillBtn">Buy Mill</button>
+            </div>
+
+            <div class="item">
+                <div>✏️ Pencil Press</div>
+                <div>Cost: $<span id="pressCost">100</span></div>
+                <div>Owned: <span id="pressCount">0</span></div>
+                <button id="buyPressBtn">Buy Press</button>
+            </div>
+            
+            <div class="item">
+                <div>📣 Advertising</div>
+                <div>Cost: $<span id="adCost">200</span></div>
+                <div>Owned: <span id="adCount">0</span></div>
+                <button id="buyAdBtn" type="button">Buy Ad</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
