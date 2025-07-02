@@ -29,7 +29,7 @@
   const MAX_PRICE  = 10.00;
   const DEMAND_D0  = 33.3333;  // tuned so at $1 demand≈30%
   const MIN_SELL_MS= 500;
-  const MAX_SELL_MS= 1000;
+  const MAX_SELL_MS= 3000;
   const DEMAND_EXPONENT = 0.3;
 
   // State
