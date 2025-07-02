@@ -67,3 +67,15 @@ header p { color: #666; }
   font-size: 1rem;
   cursor: pointer;
 }
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.back-button:hover {
+  text-decoration: underline;
+}

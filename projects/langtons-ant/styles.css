@@ -38,3 +38,15 @@ header p {
     max-width: 100%;
     height: auto;
 }
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.back-button:hover {
+  text-decoration: underline;
+}

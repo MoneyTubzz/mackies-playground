@@ -11,8 +11,8 @@ let ants = [];
 let running = false, rafId;
 
 // default settings
-const WIDTH = 1500;
-const HEIGHT = 725;
+const WIDTH = 1250;
+const HEIGHT = 650;
 
 canvas.width = WIDTH;
 canvas.height = HEIGHT;
